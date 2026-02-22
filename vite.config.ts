@@ -5,7 +5,6 @@ const isDev = process.env.NODE_ENV === "development";
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "https://ahaoboy.github.io/js-engine-benchmark/",
   plugins: [
     react(),
   ],
